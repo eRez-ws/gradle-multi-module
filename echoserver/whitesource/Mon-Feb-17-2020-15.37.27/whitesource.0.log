@@ -1,0 +1,375 @@
+[INFO] [2020-02-17 15:37:28,011 +0200[ - UnifiedAgent version (pluginVersion) : 20.1.2-SNAPSHOT
+[INFO] [2020-02-17 15:37:28,295 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-02-17 15:37:28,296 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-02-17 15:37:28,372 +0200[ - 
+##### general #####
+wss.url=http://localhost:8089/agent
+userKey=******
+updateInventory=true
+resolveAllDependencies=false
+requireKnownSha1=false
+projectTag=
+projectName=echoserver
+productName=maven
+offline=true
+log.level=debug
+includes=**/*.java**/*.c**/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c++,**/*.h,**/*.gem,**/*.tgz,**/*.dll,**/*.py,**/*.jar,**/*.rb,**/*.php,**/*.rpm,**/*.java**/*nupkg**/*.zip
+ignoreSourceFiles=true
+generateScanReport=true
+forceUpdate=true
+enableImpactAnalysis=true
+configFilePath=C:\Users\ErezHuberman\Documents\===MVN===\whitesource-fs-agent.config
+checkPolicies=true
+appPath=C:/Users/ErezHuberman/Documents/===GRADLE===/multi-project-gradle/echoserver/build/libs/echoserver.jar
+apiKey=******
+#whiteSourceFolderPath=.
+#updateType=OVERRIDE
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#iaLanguage=
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludes=
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#docker.scanContainers=false
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#euaRefactored=false
+
+##### ANT #####
+#ant.resolveDependencies=false
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bower #####
+bower.resolveDependencies=false
+#bower.runPreStep=false
+#bower.ignoreSourceFiles=true
+
+##### cabal #####
+#haskell.resolveDependencies=false
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=false
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=false
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.login.sudo=true
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.enable=false
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+case.sensitive.glob=false
+#followSymbolicLinks=true
+
+##### go #####
+#go.resolveDependencies=false
+#go.ignoreSourceFiles=true
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.aggregateModules=true
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=false
+#gradle.preferredEnvironment=gradle
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=true
+#gradle.excludeModules=
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=false
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+html.resolveDependencies=false
+
+##### maven #####
+maven.resolveDependencies=true
+maven.ignoredScopes=All
+maven.aggregateModules=true
+#maven.runPreStep=false
+#maven.projectNameFromDependencyFile=false
+#maven.m2RepositoryPath=
+#maven.ignoreSourceFiles=true
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+npm.resolveMainPackageJsonOnly=true
+npm.includeDevDependencies=true
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=false
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.identifyByNameAndVersion=false
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=false
+#nuget.resolveCsProjFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=false
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=true
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=false
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### pub #####
+#pub.runPreStep=false
+#pub.resolveDependencies=false
+#pub.ignoreSourceFiles=true
+#pub.dependencySourceExclude=
+
+##### python #####
+#python.uninstallWssPlugin=false
+#python.runPoetryPrepStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=false
+#python.requirementsFileIncludes=requirements.txt,Pipfile,pyproject.toml
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.isWssPluginInstalled=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=false
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=false
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+sbt.targetFolder=
+#sbt.runPreStep=false
+#sbt.resolveDependencies=false
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=true
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2020-02-17 15:37:28,461 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	160
+Max memory (Mb): 	3038
+Total memory (Mb): 	190
+Used memory (Mb): 	29
+
+[INFO] [2020-02-17 15:37:28,469 +0200[ - Starting analysis
+[INFO] [2020-02-17 15:37:28,470 +0200[ - Scanning directories [C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver] for package dependencies (may take a few minutes)
+[INFO] [2020-02-17 15:37:28,470 +0200[ - Included file types: **/*.java**/*.c**/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c++,**/*.h,**/*.gem,**/*.tgz,**/*.dll,**/*.py,**/*.jar,**/*.rb,**/*.php,**/*.rpm,**/*.java**/*nupkg**/*.zip
+[INFO] [2020-02-17 15:37:28,470 +0200[ - Excluded file types: 
+[INFO] [2020-02-17 15:37:28,471 +0200[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-02-17 15:37:28,471 +0200[ - Scanning C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver
+[INFO] [2020-02-17 15:37:28,526 +0200[ - Scanning directories [C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver] for matching source/binary file types (may take a few minutes)
+[DEBUG] [2020-02-17 15:37:28,526 +0200[ - Scanning C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver
+[DEBUG] [2020-02-17 15:37:28,550 +0200[ - Dependency file found location: C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver\build\libs\echoserver.jar
+[INFO] [2020-02-17 15:37:28,579 +0200[ - Total files found according to the includes/excludes pattern: 1
+[INFO] [2020-02-17 15:37:28,677 +0200[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-02-17 15:37:28,678 +0200[ - Finished analyzing Files
+[DEBUG] [2020-02-17 15:37:28,679 +0200[ - Available processors (cores): 	8
+Free memory (Mb): 	158
+Max memory (Mb): 	3038
+Total memory (Mb): 	190
+Used memory (Mb): 	31
+
+[INFO] [2020-02-17 15:37:28,693 +0200[ - Initializing WhiteSource Client
+[DEBUG] [2020-02-17 15:37:28,693 +0200[ - Setting project tags
+[INFO] [2020-02-17 15:37:28,696 +0200[ - Service URL is http://localhost:8089/agent
+[INFO] [2020-02-17 15:37:28,868 +0200[ - Generating offline update request
+[INFO] [2020-02-17 15:37:28,871 +0200[ - UpdateType offline set to OVERRIDE 
+[INFO] [2020-02-17 15:37:29,030 +0200[ - Offline request generated successfully at C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver\.\whitesource\update-request.txt
+[DEBUG] [2020-02-17 15:37:29,463 +0200[ - Process finished with exit code SUCCESS (Offline request generated successfully at C:\Users\ErezHuberman\Documents\===GRADLE===\multi-project-gradle\echoserver\.\whitesource\update-request.txt)
+[INFO] [2020-02-17 15:37:29,464 +0200[ - Log files are found at: .\whitesource\Mon-Feb-17-2020-15.37.27
+[INFO] [2020-02-17 15:37:29,476 +0200[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.280               --------
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.145               1 source/binary files
+   jar                                               COMPLETED                    --------                 1 source/binary files
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:00.425
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)

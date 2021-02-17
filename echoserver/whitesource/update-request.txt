@@ -1,0 +1,74 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "fs-agent",
+  "agentVersion": "2.9.9.37",
+  "pluginVersion": "20.1.2-SNAPSHOT",
+  "orgToken": "f5e8b65b8e344f1e90dac38cbcecc9b1260ab0be1ad84b938da3e9b75ff1b4bb",
+  "userKey": "c30f6b3057ce4178a2c9d74c35890e95a5360f19be184a37b294075d066941ec",
+  "product": "maven",
+  "productVersion": "",
+  "timeStamp": 1582451092289,
+  "projects": [
+    {
+      "coordinates": {
+        "artifactId": "echoserver",
+        "version": ""
+      },
+      "dependencies": [
+        {
+          "artifactId": "echoserver.jar",
+          "sha1": "b3481209ce7368bad25f6587ca54afbb920f3071",
+          "otherPlatformSha1": "92b4d159d5e9664703b2169e6a1a3ab4e92a4158",
+          "systemPath": "C:\\Users\\ErezHuberman\\Documents\\\u003d\u003d\u003dGRADLE\u003d\u003d\u003d\\multi-project-gradle\\echoserver\\build\\libs\\echoserver.jar",
+          "optional": false,
+          "children": [],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": [],
+          "filename": "echoserver.jar",
+          "checksums": {
+            "SHA1": "b3481209ce7368bad25f6587ca54afbb920f3071",
+            "SHA1_OTHER_PLATFORM": "92b4d159d5e9664703b2169e6a1a3ab4e92a4158"
+          },
+          "deduped": false,
+          "dependencyModulesToPaths": {},
+          "euaArtifactId": "echoserver.jar"
+        }
+      ],
+      "projectTags": []
+    }
+  ],
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {},
+  "scanSummaryInfo": {
+    "totalElapsedTime": 365,
+    "stepsSummaryInfo": [
+      {
+        "stepName": "Fetch Configuration",
+        "totalElapsedTime": 234,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": []
+      },
+      {
+        "totalSourceBinariesFound": 1,
+        "stepName": "Scan Files Matching Includes Pattern",
+        "totalElapsedTime": 131,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": [
+          {
+            "totalSourceBinariesFound": 1,
+            "stepName": "jar",
+            "totalElapsedTime": 0,
+            "isSubStep": true,
+            "stepCompletionStatus": "COMPLETED",
+            "subStepsInfo": []
+          }
+        ]
+      }
+    ]
+  }
+}
